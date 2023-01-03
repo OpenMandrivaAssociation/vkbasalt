@@ -44,11 +44,11 @@ It is also possible to use Reshade Fx shaders.
 %meson_install
 
 # Configuration file
-install -D -m644 config/%{uname}.conf %{buildroot}%{_sysconfdir}/%{uname}.conf
+install -D -m644 config/%{oname}.conf %{buildroot}%{_sysconfdir}/%{oname}.conf
 
 %files
 %license LICENSE
 %doc README.md
-%config(noreplace) %{_sysconfdir}/%{uname}.conf
-%{_datadir}/vulkan/implicit_layer.d/%{uname}.json
+%config(noreplace) %{_sysconfdir}/%{oname}.conf
+%{_datadir}/vulkan/implicit_layer.d/%{oname}.json
 %{_libdir}/%{name}/
