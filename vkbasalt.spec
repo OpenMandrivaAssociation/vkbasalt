@@ -34,7 +34,7 @@ Currently, the build in effects are:
 It is also possible to use Reshade Fx shaders.
 
 %prep
-%autosetup -p1 -n %{uname}-%{version}
+%autosetup -p1 -n %{oname}-%{version}
 
 %build
 %meson -Dappend_libdir_vkbasalt=true
