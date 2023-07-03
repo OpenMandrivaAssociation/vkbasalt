@@ -1,8 +1,8 @@
 %global oname   vkBasalt
 
 Name:           vkbasalt
-Version:        0.3.2.8
-Release:        2
+Version:        0.3.2.10
+Release:        1
 Summary:        Vulkan post processing layer
 Group:          System/Libraries
 License:        zlib and ASL 2.0
